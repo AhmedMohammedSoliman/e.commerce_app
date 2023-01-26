@@ -1,4 +1,3 @@
-import 'package:e_commerce_app/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,10 +11,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: SplashScreen.routeName,
-      routes: {
-        SplashScreen.routeName : (context) => SplashScreen(),
-      },
     );
   }
 }
